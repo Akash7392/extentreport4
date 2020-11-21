@@ -1,127 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="150" started-at="2020-11-08T12:25:55 IST" finished-at="2020-11-08T12:25:55 IST">
+  <suite name="Default suite" duration-ms="1017" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:17 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="150" started-at="2020-11-08T12:25:55 IST" finished-at="2020-11-08T12:25:55 IST">
-      <class name="testNG_extents_report.Extents_report">
-        <test-method status="FAIL" signature="BasicReportDesign()[pri:0, instance:testNG_extents_report.Extents_report@184f6be2]" name="BasicReportDesign" is-config="true" duration-ms="56" started-at="2020-11-08T12:25:55 IST" finished-at="2020-11-08T12:25:55 IST">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
-at com.aventstack.extentreports.reporter.BasicFileReporter.start(BasicFileReporter.java:153)
-at com.aventstack.extentreports.ExtentObservable.register(ExtentObservable.java:179)
-at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
-at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
-at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:69)
-at testNG_extents_report.Extents_report.BasicReportDesign(Extents_report.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
-at java.net.URLClassLoader.findClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+    <test name="Default test" duration-ms="1017" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:17 IST">
+      <class name="testNG_extents_report.Extentest">
+        <test-method status="PASS" signature="beforeclasstest()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="beforeclasstest" is-config="true" duration-ms="284" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BasicReportDesign -->
-        <test-method status="SKIP" signature="websitelaunch()[pri:0, instance:testNG_extents_report.Extents_report@184f6be2]" name="websitelaunch" is-config="true" duration-ms="-1604818555769" started-at="2020-11-08T12:25:55 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- beforeclasstest -->
+        <test-method status="PASS" signature="beforemethodcheck()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="beforemethodcheck" is-config="true" duration-ms="11" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- websitelaunch -->
-        <test-method status="SKIP" signature="checklogo()[pri:0, instance:testNG_extents_report.Extents_report@184f6be2]" name="checklogo" duration-ms="0" started-at="2020-11-08T12:25:55 IST" finished-at="2020-11-08T12:25:55 IST">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[freemarker/ext/beans/BeansWrapperBuilder]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: freemarker/ext/beans/BeansWrapperBuilder
-at com.aventstack.extentreports.reporter.BasicFileReporter.start(BasicFileReporter.java:153)
-at com.aventstack.extentreports.ExtentObservable.register(ExtentObservable.java:179)
-at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
-at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
-at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:69)
-at testNG_extents_report.Extents_report.BasicReportDesign(Extents_report.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: freemarker.ext.beans.BeansWrapperBuilder
-at java.net.URLClassLoader.findClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        </test-method> <!-- beforemethodcheck -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="logintest" duration-ms="10" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checklogo -->
-        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:testNG_extents_report.Extents_report@184f6be2]" name="teardown" is-config="true" duration-ms="-1604818555783" started-at="2020-11-08T12:25:55 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="Aftermethodcheck(org.testng.ITestResult)[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="Aftermethodcheck" is-config="true" duration-ms="4" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=Extentest.logintest()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="toerasereport()[pri:0, instance:testNG_extents_report.Extents_report@184f6be2]" name="toerasereport" is-config="true" duration-ms="-1604818555793" started-at="2020-11-08T12:25:55 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- Aftermethodcheck -->
+        <test-method status="PASS" signature="beforemethodcheck()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="beforemethodcheck" is-config="true" duration-ms="1" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodcheck -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="logouttest" duration-ms="2" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method status="PASS" signature="Aftermethodcheck(org.testng.ITestResult)[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="Aftermethodcheck" is-config="true" duration-ms="2" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logouttest status=SUCCESS method=Extentest.logouttest()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethodcheck -->
+        <test-method status="PASS" signature="toerasereport()[pri:0, instance:testNG_extents_report.Extentest@38c5cc4c]" name="toerasereport" is-config="true" duration-ms="613" started-at="2020-11-21T19:17:16 IST" finished-at="2020-11-21T19:17:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toerasereport -->
-      </class> <!-- testNG_extents_report.Extents_report -->
+      </class> <!-- testNG_extents_report.Extentest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
